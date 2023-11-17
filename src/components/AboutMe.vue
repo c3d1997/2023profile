@@ -8,6 +8,24 @@
         <span>Front-end developer</span>
       </div>
     </div>
+    <Container :width="320" :mg-bottom="0">
+      <div class="aboutMe">
+        <h3>聯絡資訊</h3>
+        <div class="info">
+          <p>郵件</p>
+          <p>c3d1997@gmial.com</p>
+        </div>
+        <div class="info">
+          <p>手機</p>
+          <p>0976-150-619</p>
+        </div>
+        <div class="info">
+          <p>Github</p>
+          <a href="https://github.com/c3d1997">@c3d1997</a>
+        </div>
+      </div></Container
+    >
+
     <div class="aboutMe">
       <h3>關於我</h3>
       <p>
@@ -17,23 +35,8 @@
         Vue 框架並探索其他編程語言和框架，以豐富我的技術棧和視野。
       </p>
       <p>
-        我對追踪前端開發的最新趨勢充滿熱情，並將這些知識運用於創建美觀且用戶友好的網站。在團隊合作中，我致力於追求卓越，並將從學習到實踐的每一步作為成長和進步的機會。我所做的每一步努力都源於對技術的熱愛和對於專業轉型的堅定決心，這驅動我在這個充滿挑戰與機會的領域不斷進取。
+        我對追蹤前端開發的最新趨勢充滿熱情，並將這些知識運用於創建美觀且用戶友好的網站。在團隊合作中，我致力於追求卓越，並將從學習到實踐的每一步作為成長和進步的機會。我所做的每一步努力都源於對技術的熱愛和對於專業轉型的堅定決心，這驅動我在這個充滿挑戰與機會的領域不斷進取。
       </p>
-    </div>
-    <div class="aboutMe">
-      <h3>聯絡資訊</h3>
-      <div class="info">
-        <p>郵件</p>
-        <p>c3d1997@gmial.com</p>
-      </div>
-      <div class="info">
-        <p>手機</p>
-        <p>0976-150-619</p>
-      </div>
-      <div class="info">
-        <p>Github</p>
-        <a href="https://github.com/c3d1997">@c3d1997</a>
-      </div>
     </div>
   </Container>
 </template>

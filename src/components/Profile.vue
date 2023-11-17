@@ -185,7 +185,7 @@ const contents = ref([
 .imgBox {
   width: 100%;
   overflow: hidden;
-  max-height: 400px;
+  max-height: 300px;
   margin-bottom: 16px;
 }
 

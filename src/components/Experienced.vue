@@ -43,6 +43,15 @@ import { ref } from "vue";
 
 const learns = ref([
   {
+    id: 0,
+    years: "2023.10 - 至今",
+    title: "Vue 3.x全家桶完全指南与实战",
+    link: "https://www.udemy.com/share/107eRc3@-dfou4YcjzWyLdho2qMa_r_sKdADImzW0JnmEu-jrhmbhmW1yE_2eSelfrUDsCjoAA==/",
+    description:
+      "在過去一年的工作中，我意識到提升前端技能的重要性，因此投入學習 Vue.js。透過不斷實踐，我正在從初學者逐步邁向熟練開發者，雖尚未精通，但每一步的進步都加深了我對前端開發的熱情與期待。",
+    skill: "Vue3 • Vite • Vue router ",
+  },
+  {
     id: 1,
     years: "2022.01 - 2022.06",
     title: "UIUX互動式網站UI/UX設計師就業養成班",
@@ -102,7 +111,7 @@ const works = ref([
 
 .year {
   text-align: right;
-  flex: d 0 130px;
+  flex: 0 0 130px;
   word-wrap: normal;
   color: rgba(255, 255, 255, 0.527);
 }
