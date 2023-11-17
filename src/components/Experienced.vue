@@ -102,18 +102,18 @@ const works = ref([
 
 .year {
   text-align: right;
-  flex: 1 1 140px;
+  flex: d 0 130px;
   word-wrap: normal;
   color: rgba(255, 255, 255, 0.527);
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 525px) {
   .content {
     flex-wrap: wrap;
     gap: 10px;
   }
   .year {
-    text-align: center;
-    flex: 1 1 1;
+    text-align: left;
+    flex: 1 1 100%;
   }
 }
 
