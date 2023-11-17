@@ -44,7 +44,7 @@ import { ref } from "vue";
 const learns = ref([
   {
     id: 1,
-    years: "2022 - 2022",
+    years: "2022.01 - 2022.06",
     title: "UIUX互動式網站UI/UX設計師就業養成班",
     link: "",
     description:
@@ -53,7 +53,7 @@ const learns = ref([
   },
   {
     id: 2,
-    years: "2016 - 2020",
+    years: "2016.08 - 2020.06",
     title: "中國科技大學數位多媒體",
     link: "",
     description:
@@ -66,7 +66,7 @@ const learns = ref([
 const works = ref([
   {
     id: 1,
-    years: "2022 - 2023",
+    years: "2022.07 - 2023.08",
     title: "光曜町數位行銷 - Hikaru Digital Marketing",
     link: "https://www.hikaru.com.tw/",
     description:
@@ -99,18 +99,22 @@ const works = ref([
   gap: 34px;
   margin: 24px 0;
 }
+
+.year {
+  text-align: right;
+  flex: 1 1 140px;
+  word-wrap: normal;
+  color: rgba(255, 255, 255, 0.527);
+}
 @media screen and (max-width: 500px) {
   .content {
     flex-wrap: wrap;
     gap: 10px;
   }
-}
-
-.year {
-  text-align: right;
-  flex: 1 1 1;
-  word-wrap: normal;
-  color: rgba(255, 255, 255, 0.527);
+  .year {
+    text-align: center;
+    flex: 1 1 1;
+  }
 }
 
 .work {

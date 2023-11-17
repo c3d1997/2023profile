@@ -121,6 +121,33 @@ const contents = ref([
     text: "協助新光人壽製作 Line 使用的活動網頁，使用 HTML、SCSS、jQuery、AJAX 快速構建，並且有簡單使用 GSAP 製作動態，但由於 api 已經關閉，無法獲取更多的網頁畫面。",
     skills: ["SCSS", "HTML", "jQuery", "GSAP", "AJAX"],
   },
+  {
+    id: 11,
+    img: "",
+    remark: "無法提供畫面",
+    title: "凱基證卷共銷查詢系統",
+    link: "",
+    text: "協助凱基證卷製作後台操作系統，內容主要皆為數據傳出以及查找資料，我主要負責 UI/UX 設計並且進行畫面切版，並協助後端確認資料來源，過程非常有趣。",
+    skills: ["SCSS", "HTML", "jQuery", "Bootstrap"],
+  },
+  {
+    id: 12,
+    img: "",
+    remark: "無法提供畫面",
+    title: "新光西瓜點數後台紀錄系統",
+    link: "",
+    text: "協助新光人壽製作後台活動查詢系統，內容主要為查看點數紀錄詳情以及中獎紀錄，我主要負責 UI/UX 設計並且進行畫面切版。",
+    skills: ["SCSS", "HTML", "jQuery", "Bootstrap"],
+  },
+  {
+    id: 13,
+    img: "",
+    remark: "無法提供畫面",
+    title: "新光全國繪畫比賽後台",
+    link: "",
+    text: "協助新光人壽製作繪畫比賽後台操作系統，內容主要服務於繪畫比賽案件報名，查看報名紀錄，我主要負責 UI/UX 設計並且進行畫面切版。",
+    skills: ["SCSS", "HTML", "jQuery", "Bootstrap"],
+  },
 ]);
 </script>
 <style scoped>
@@ -138,6 +165,7 @@ const contents = ref([
 .listThing > p:nth-child(2) {
   line-height: 26px;
   font-weight: bold;
+  display: inline;
 }
 .listThing > p:nth-child(4) {
   line-height: 26px;
