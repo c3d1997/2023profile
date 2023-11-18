@@ -57,8 +57,8 @@ const learns = ref([
     title: "UIUX互動式網站UI/UX設計師就業養成班",
     link: "",
     description:
-      "畢業一年後，我專注於UI/UX和前端開發。精通AI、PS、Figma，並具備使用者分析和流程規劃能力。在前端，我熟練於HTML、CSS、JQuery和JavaScript，也了解MySQL和PHP。我致力於結合設計與技術創造優質網頁體驗。",
-    skill: "Figma • HTML • CSS • jQuery • JavaScript • PHP • mySQL",
+      "畢業一年後，我專注於UI/UX和前端開發。精通AI、PS、Figma，並具備使用者分析和流程規劃能力。在前端，我熟練於HTML5、CSS3、JQuery和JavaScript，也了解MySQL和PHP。我致力於結合設計與技術創造優質網頁體驗。",
+    skill: "Figma • HTML5 • CSS3 • jQuery • JavaScript • PHP • mySQL",
   },
   {
     id: 2,
@@ -79,8 +79,8 @@ const works = ref([
     title: "光曜町數位行銷 - Hikaru Digital Marketing",
     link: "https://www.hikaru.com.tw/",
     description:
-      "在光曜町數位行銷的一年工作經歷中，我不僅負責網頁維護，還參與一頁式網站、官方網站、Line內互動網頁及 CMS 後台的UI/UX設計與前端開發。我熟練掌握HTML、CSS、jQuery和JavaScript，與設計團隊緊密合作，致力於提升用戶體驗和滿足客戶需求。我的技能涵蓋從界面設計到功能實現，展現了我在前端開發領域的專業能力與多元化。",
-    skill: "Figma • HTML • CSS • jQuery • JavaScript • GSAP • RESTful API",
+      "在光曜町數位行銷的一年工作經歷中，我不僅負責網頁維護，還參與一頁式網站、官方網站、Line內互動網頁及 CMS 後台的UI/UX設計與前端開發。我熟練掌握HTML5、CSS3、jQuery和JavaScript，與設計團隊緊密合作，致力於提升用戶體驗和滿足客戶需求。我的技能涵蓋從界面設計到功能實現，展現了我在前端開發領域的專業能力與多元化。",
+    skill: "Figma • HTML5 • CSS3 • jQuery • JavaScript • GSAP • RESTful API",
   },
   // 可以繼續添加更多項目
 ]);
