@@ -11,6 +11,10 @@ const emit = defineEmits(["ChangeComponents"]);
 function ClickBtn() {
   BtnText.value = BtnText.value === "作品集 →" ? "經歷 ←" : "作品集 →";
   emit("ChangeComponents", BtnText.value);
+  // 如果按鈕文本是“經歷 ←”，則滾動到作品集部分
+  setTimeout(function () {
+    document.getElementById("headerTop").scrollIntoView({ behavior: "smooth" });
+  }, 1000);
 }
 </script>
 <style scoped>

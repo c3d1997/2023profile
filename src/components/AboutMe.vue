@@ -1,6 +1,6 @@
 <template>
   <Container :width="600" :mg-bottom="30">
-    <div class="introduce">
+    <div class="introduce" id="top">
       <img class="avatar" src="../assets/lc.png" alt="" />
       <div class="content">
         <h2>李承熹</h2>
